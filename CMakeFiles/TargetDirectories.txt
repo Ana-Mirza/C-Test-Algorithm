@@ -1,0 +1,5 @@
+/home/student/C-test-algorithm/CMakeFiles/testAlgorithm.dir
+/home/student/C-test-algorithm/CMakeFiles/package.dir
+/home/student/C-test-algorithm/CMakeFiles/package_source.dir
+/home/student/C-test-algorithm/CMakeFiles/edit_cache.dir
+/home/student/C-test-algorithm/CMakeFiles/rebuild_cache.dir
