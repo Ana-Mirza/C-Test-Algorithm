@@ -29,6 +29,10 @@ for CSV_FILE, OUTPUT_IMAGE in csv_files.items():
             timestamps.append(float(row[0]))
             magnitudes.append(float(row[1]))
 
+    if CSV_FILE == "output/magnitude.csv":
+        print(f"Plotting {CSV_FILE} with {len(timestamps)} data points...")
+        print(magnitudes[:5], "...")  # Print first 5 magnitudes for quick check
+
     # Plotting
     plt.figure(figsize=(12, 6))
     plt.plot(timestamps, magnitudes, marker='o', linestyle='-', color='blue', label='Magnitudine')
