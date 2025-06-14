@@ -60,3 +60,4 @@ data/
 *.csv
 *.cmake
 testAlgorithm
+CMakeFiles/
