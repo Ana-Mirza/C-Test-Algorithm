@@ -1,6 +1,6 @@
 ## C-optimize variables
 
-This is a script for optimizing the constants in [C-step-counter](https://github.com/Ana-Mirza/C-Step-Counter).
+This is a script for optimizing the constants in [C-Fitness-Tracker](https://github.com/Ana-Mirza/C-Step-Counter).
 
 ## Guide
 
