@@ -101,28 +101,15 @@ int main(int argc, char *argv[])
         runAlgo(dataset[idx].path);
 
         int steps = getSteps();
-        int met = getMET();
         float dist = getDistance();
+        float kcal = getCalories();
 
         totalSteps += steps;
         totalCorectSteps += correct_answer;
 
-        /* Compute calorie burn */
-        float kcal = met * 0.0175 * WEIGHT / 1000; /* convert mili */
-        float BMR = strcmp(GENDER, "F") == 0 ? 
-            (9.56 * WEIGHT) + (1.85 * HEIGHT) - (4.68 * AGE) + 655 :
-            (13.75 * WEIGHT) + (5 * HEIGHT) - (6.76 * AGE) + 66;
-
-        float total_kcal = (BMR / 24) + kcal / 1000;
-
-        float calories = getCalories();
-
         /* Print data computed */
-        // printf("Distance=%f Calories=%f Steps=%d CorrectSteps=%d mers-%s\n", 
-        //     dist, kcal, steps, correct_answer, dataset[idx].style);
-
-        /* Print calorie burn */
-        printf("kcal_algo=%f kcal=%f BMR(per min)=%f Total_Calories=%f\n", calories, kcal, BMR / 24 / 60, total_kcal);
+        printf("Distance=%f KCalories=%f Steps=%d CorrectSteps=%d mers-%s\n", 
+            dist, kcal, steps, correct_answer, dataset[idx].style);
 
         resetSteps();
         resetAlgo();
