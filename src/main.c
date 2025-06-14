@@ -46,22 +46,30 @@ struct datapoint
 {
 	char* path;    /* the data of register */
 	int steps;      /* the unit is us */
+    int dist;
     char* style;     /* the style of walking */
 };
 
-static const struct datapoint dataset[] = {
-    // {"../Dataset/optimize/csv_data/leganat_normal.csv", 150, "normal"},
-    // {"../Dataset/optimize/csv_data/leganat_incet.csv", 150, "incet"},
-    // {"../Dataset/optimize/csv_data/leganat_rapid.csv", 150, "rapid"},
-    // {"../Dataset/optimize/csv_data/leganat_alergat.csv", 150, "alergat"},
-    // {"../Dataset/optimize/csv_data/buzunar.csv", 170, "normal"},
-    // {"../Dataset/optimize/csv_data/stationar.csv", 150, "normal"},
-    // {"../Dataset/optimize/csv_data/scari.csv", 150, "normal"},
-    {"../Dataset/optimize/csv_data/50_pasi.csv", 50, "normal"},
-    {"../Dataset/optimize/csv_data/10pasi.csv", 10, "normal"},
-    {"../Dataset/optimize/csv_data/11metri.csv", 11, "normal"},
-    {"../Dataset/optimize/csv_data/55metri.csv", 55, "normal"},
-    {"../Dataset/optimize/csv_data/110metri.csv", 110, "normal"},
+static const struct datapoint distance_dataset[] = {
+    {"../Dataset/validate/distance/csv_data/15_metri.csv", 26, 15, "normal"},
+    {"../Dataset/validate/distance/csv_data/30_metri.csv", 52, 30, "normal"},
+    {"../Dataset/validate/distance/csv_data/45_metri.csv", 78, 45, "normal"},
+    {"../Dataset/validate/distance/csv_data/60_metri.csv", 106, 60, "normal"},
+    {"../Dataset/validate/distance/csv_data/75_metri.csv", 133, 75, "normal"},
+    {"../Dataset/validate/distance/csv_data/90_metri.csv", 160, 90, "normal"},
+    {"../Dataset/validate/distance/csv_data/100_metri.csv", 187, 100, "normal"},
+};
+
+static const struct datapoint steps_dataset[] = {
+    {"../Dataset/optimize/csv_data/leganat_normal.csv", 150, 0, "normal"},
+    {"../Dataset/optimize/csv_data/leganat_incet.csv", 150, 0, "incet"},
+    {"../Dataset/optimize/csv_data/leganat_rapid.csv", 150, 0, "rapid"},
+    {"../Dataset/optimize/csv_data/leganat_alergat.csv", 150, 0, "alergat"},
+    {"../Dataset/optimize/csv_data/buzunar.csv", 170, 0, "normal"},
+    {"../Dataset/optimize/csv_data/stationar.csv", 150, 0, "normal"},
+    {"../Dataset/optimize/csv_data/scari.csv", 150, 0, "normal"},
+    {"../Dataset/optimize/csv_data/50_pasi.csv", 50, 0, "normal"},
+    {"../Dataset/optimize/csv_data/10pasi.csv", 10, 0, "normal"},
 };
 
 static void runAlgo(char* path)
@@ -95,21 +103,21 @@ int main(int argc, char *argv[])
     int error = 0;
     int totalSteps = 0;
     int totalCorectSteps = 0;
-    for (int idx = 0; idx < nitems(dataset); idx++)
+    for (int idx = 0; idx < nitems(distance_dataset); idx++)
     {
-        int correct_answer = dataset[idx].steps;
-        runAlgo(dataset[idx].path);
+        int correct_steps = distance_dataset[idx].steps;
+        runAlgo(distance_dataset[idx].path);
 
         int steps = getSteps();
         float dist = getDistance();
         float kcal = getCalories();
 
         totalSteps += steps;
-        totalCorectSteps += correct_answer;
+        totalCorectSteps += correct_steps;
 
-        /* Print data computed */
-        printf("Distance=%f KCalories=%f Steps=%d CorrectSteps=%d mers-%s\n", 
-            dist, kcal, steps, correct_answer, dataset[idx].style);
+        /* Print data data */
+        printf("Distance=%f kcal=%f Steps=%d CorrectSteps=%d CorrectDistance=%d mers-%s\n",
+            dist, kcal, steps, correct_steps, distance_dataset[idx].dist, distance_dataset[idx].style);
 
         resetSteps();
         resetAlgo();

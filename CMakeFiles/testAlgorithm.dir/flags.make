@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/student/C-test-algorithm/include -I/home/student/C-test-algorithm/../C-Step-Counter/include
+C_INCLUDES = -I/home/student/C-Test-Algorithm/include -I/home/student/C-Test-Algorithm/../C-Fitness-Tracker/include
 
 C_FLAGS = 
 

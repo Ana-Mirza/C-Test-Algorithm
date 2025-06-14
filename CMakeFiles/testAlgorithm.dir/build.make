@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/C-test-algorithm
+CMAKE_SOURCE_DIR = /home/student/C-Test-Algorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/C-test-algorithm
+CMAKE_BINARY_DIR = /home/student/C-Test-Algorithm
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testAlgorithm.dir/depend.make
@@ -72,156 +72,156 @@ include CMakeFiles/testAlgorithm.dir/flags.make
 CMakeFiles/testAlgorithm.dir/src/main.c.o: CMakeFiles/testAlgorithm.dir/flags.make
 CMakeFiles/testAlgorithm.dir/src/main.c.o: src/main.c
 CMakeFiles/testAlgorithm.dir/src/main.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-test-algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/testAlgorithm.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/src/main.c.o -MF CMakeFiles/testAlgorithm.dir/src/main.c.o.d -o CMakeFiles/testAlgorithm.dir/src/main.c.o -c /home/student/C-test-algorithm/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-Test-Algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/testAlgorithm.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/src/main.c.o -MF CMakeFiles/testAlgorithm.dir/src/main.c.o.d -o CMakeFiles/testAlgorithm.dir/src/main.c.o -c /home/student/C-Test-Algorithm/src/main.c
 
 CMakeFiles/testAlgorithm.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-test-algorithm/src/main.c > CMakeFiles/testAlgorithm.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Test-Algorithm/src/main.c > CMakeFiles/testAlgorithm.dir/src/main.c.i
 
 CMakeFiles/testAlgorithm.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-test-algorithm/src/main.c -o CMakeFiles/testAlgorithm.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Test-Algorithm/src/main.c -o CMakeFiles/testAlgorithm.dir/src/main.c.s
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.o: CMakeFiles/testAlgorithm.dir/flags.make
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.o: /home/student/C-Step-Counter/src/StepCountingAlgo.c
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-test-algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.o -c /home/student/C-Step-Counter/src/StepCountingAlgo.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o: CMakeFiles/testAlgorithm.dir/flags.make
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o: /home/student/C-Fitness-Tracker/src/StepCountingAlgo.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-Test-Algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o -c /home/student/C-Fitness-Tracker/src/StepCountingAlgo.c
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Step-Counter/src/StepCountingAlgo.c > CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.i
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Fitness-Tracker/src/StepCountingAlgo.c > CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.i
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Step-Counter/src/StepCountingAlgo.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.s
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Fitness-Tracker/src/StepCountingAlgo.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.s
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.o: /home/student/C-Step-Counter/src/detectionStage.c
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-test-algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.o -c /home/student/C-Step-Counter/src/detectionStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.o: /home/student/C-Fitness-Tracker/src/detectionStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-Test-Algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.o -c /home/student/C-Fitness-Tracker/src/detectionStage.c
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Step-Counter/src/detectionStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.i
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Fitness-Tracker/src/detectionStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.i
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Step-Counter/src/detectionStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.s
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Fitness-Tracker/src/detectionStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.s
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.o: /home/student/C-Step-Counter/src/filterStage.c
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-test-algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.o -c /home/student/C-Step-Counter/src/filterStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.o: /home/student/C-Fitness-Tracker/src/filterStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-Test-Algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.o -c /home/student/C-Fitness-Tracker/src/filterStage.c
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Step-Counter/src/filterStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.i
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Fitness-Tracker/src/filterStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.i
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Step-Counter/src/filterStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.s
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Fitness-Tracker/src/filterStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.s
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.o: /home/student/C-Step-Counter/src/motionDetectStage.c
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-test-algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.o -c /home/student/C-Step-Counter/src/motionDetectStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.o: /home/student/C-Fitness-Tracker/src/motionDetectStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-Test-Algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.o -c /home/student/C-Fitness-Tracker/src/motionDetectStage.c
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Step-Counter/src/motionDetectStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.i
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Fitness-Tracker/src/motionDetectStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.i
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Step-Counter/src/motionDetectStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.s
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Fitness-Tracker/src/motionDetectStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.s
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.o: /home/student/C-Step-Counter/src/postProcessingStage.c
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-test-algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.o -c /home/student/C-Step-Counter/src/postProcessingStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.o: /home/student/C-Fitness-Tracker/src/postProcessingStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-Test-Algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.o -c /home/student/C-Fitness-Tracker/src/postProcessingStage.c
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Step-Counter/src/postProcessingStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.i
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Fitness-Tracker/src/postProcessingStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.i
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Step-Counter/src/postProcessingStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.s
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Fitness-Tracker/src/postProcessingStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.s
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.o: /home/student/C-Step-Counter/src/preProcessingStage.c
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-test-algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.o -c /home/student/C-Step-Counter/src/preProcessingStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.o: /home/student/C-Fitness-Tracker/src/preProcessingStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-Test-Algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.o -c /home/student/C-Fitness-Tracker/src/preProcessingStage.c
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Step-Counter/src/preProcessingStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.i
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Fitness-Tracker/src/preProcessingStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.i
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Step-Counter/src/preProcessingStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.s
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Fitness-Tracker/src/preProcessingStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.s
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.o: CMakeFiles/testAlgorithm.dir/flags.make
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.o: /home/student/C-Step-Counter/src/ringbuffer.c
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-test-algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.o -c /home/student/C-Step-Counter/src/ringbuffer.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.o: CMakeFiles/testAlgorithm.dir/flags.make
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.o: /home/student/C-Fitness-Tracker/src/ringbuffer.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-Test-Algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.o -c /home/student/C-Fitness-Tracker/src/ringbuffer.c
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Step-Counter/src/ringbuffer.c > CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.i
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Fitness-Tracker/src/ringbuffer.c > CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.i
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Step-Counter/src/ringbuffer.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.s
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Fitness-Tracker/src/ringbuffer.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.s
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.o: /home/student/C-Step-Counter/src/scoringStage.c
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-test-algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.o -c /home/student/C-Step-Counter/src/scoringStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.o: CMakeFiles/testAlgorithm.dir/flags.make
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.o: /home/student/C-Fitness-Tracker/src/scoringStage.c
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.o: CMakeFiles/testAlgorithm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/C-Test-Algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.o -MF CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.o.d -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.o -c /home/student/C-Fitness-Tracker/src/scoringStage.c
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Step-Counter/src/scoringStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.i
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/student/C-Fitness-Tracker/src/scoringStage.c > CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.i
 
-CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Step-Counter/src/scoringStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.s
+CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/student/C-Fitness-Tracker/src/scoringStage.c -o CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.s
 
 # Object files for target testAlgorithm
 testAlgorithm_OBJECTS = \
 "CMakeFiles/testAlgorithm.dir/src/main.c.o" \
-"CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.o" \
-"CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.o" \
-"CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.o" \
-"CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.o" \
-"CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.o" \
-"CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.o" \
-"CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.o" \
-"CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.o"
+"CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o" \
+"CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.o" \
+"CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.o" \
+"CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.o" \
+"CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.o" \
+"CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.o" \
+"CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.o" \
+"CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.o"
 
 # External object files for target testAlgorithm
 testAlgorithm_EXTERNAL_OBJECTS =
 
 testAlgorithm: CMakeFiles/testAlgorithm.dir/src/main.c.o
-testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.o
-testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.o
-testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.o
-testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.o
-testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.o
-testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.o
-testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.o
-testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.o
+testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o
+testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.o
+testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.o
+testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.o
+testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.o
+testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.o
+testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.o
+testAlgorithm: CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.o
 testAlgorithm: CMakeFiles/testAlgorithm.dir/build.make
 testAlgorithm: CMakeFiles/testAlgorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/C-test-algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable testAlgorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/C-Test-Algorithm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable testAlgorithm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testAlgorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,6 +233,6 @@ CMakeFiles/testAlgorithm.dir/clean:
 .PHONY : CMakeFiles/testAlgorithm.dir/clean
 
 CMakeFiles/testAlgorithm.dir/depend:
-	cd /home/student/C-test-algorithm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/C-test-algorithm /home/student/C-test-algorithm /home/student/C-test-algorithm /home/student/C-test-algorithm /home/student/C-test-algorithm/CMakeFiles/testAlgorithm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/C-Test-Algorithm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/C-Test-Algorithm /home/student/C-Test-Algorithm /home/student/C-Test-Algorithm /home/student/C-Test-Algorithm /home/student/C-Test-Algorithm/CMakeFiles/testAlgorithm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testAlgorithm.dir/depend
 

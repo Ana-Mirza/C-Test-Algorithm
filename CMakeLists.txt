@@ -10,10 +10,10 @@ project(testAlgorithm LANGUAGES C VERSION 0.1.0)
 #set (CMAKE_LINKER_FLAGS_DEBUG "${CMAKE_LINKER_FLAGS_DEBUG} -Wall -pg")
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
-include_directories(${PROJECT_SOURCE_DIR}/../C-Step-Counter/include)
+include_directories(${PROJECT_SOURCE_DIR}/../C-Fitness-Tracker/include)
 set(SOURCES, "src/main.c")
 file(GLOB SOURCES "src/*.c")
-file(GLOB ALGO "../C-Step-Counter/src/*.c")
+file(GLOB ALGO "../C-Fitness-Tracker/src/*.c")
 
 add_executable(testAlgorithm ${SOURCES} ${ALGO})
 target_link_libraries(testAlgorithm m)

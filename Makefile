@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/C-test-algorithm
+CMAKE_SOURCE_DIR = /home/student/C-Test-Algorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/C-test-algorithm
+CMAKE_BINARY_DIR = /home/student/C-Test-Algorithm
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/student/C-test-algorithm/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/student/C-Test-Algorithm/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -107,9 +107,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/C-test-algorithm/CMakeFiles /home/student/C-test-algorithm//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/C-Test-Algorithm/CMakeFiles /home/student/C-Test-Algorithm//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/C-test-algorithm/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/C-Test-Algorithm/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,197 +149,197 @@ testAlgorithm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/build
 .PHONY : testAlgorithm/fast
 
-home/student/C-Step-Counter/src/StepCountingAlgo.o: home/student/C-Step-Counter/src/StepCountingAlgo.c.o
-.PHONY : home/student/C-Step-Counter/src/StepCountingAlgo.o
+home/student/C-Fitness-Tracker/src/StepCountingAlgo.o: home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/StepCountingAlgo.o
 
 # target to build an object file
-home/student/C-Step-Counter/src/StepCountingAlgo.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.o
-.PHONY : home/student/C-Step-Counter/src/StepCountingAlgo.c.o
+home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.o
 
-home/student/C-Step-Counter/src/StepCountingAlgo.i: home/student/C-Step-Counter/src/StepCountingAlgo.c.i
-.PHONY : home/student/C-Step-Counter/src/StepCountingAlgo.i
+home/student/C-Fitness-Tracker/src/StepCountingAlgo.i: home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/StepCountingAlgo.i
 
 # target to preprocess a source file
-home/student/C-Step-Counter/src/StepCountingAlgo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.i
-.PHONY : home/student/C-Step-Counter/src/StepCountingAlgo.c.i
+home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.i
 
-home/student/C-Step-Counter/src/StepCountingAlgo.s: home/student/C-Step-Counter/src/StepCountingAlgo.c.s
-.PHONY : home/student/C-Step-Counter/src/StepCountingAlgo.s
+home/student/C-Fitness-Tracker/src/StepCountingAlgo.s: home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/StepCountingAlgo.s
 
 # target to generate assembly for a file
-home/student/C-Step-Counter/src/StepCountingAlgo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/StepCountingAlgo.c.s
-.PHONY : home/student/C-Step-Counter/src/StepCountingAlgo.c.s
+home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/StepCountingAlgo.c.s
 
-home/student/C-Step-Counter/src/detectionStage.o: home/student/C-Step-Counter/src/detectionStage.c.o
-.PHONY : home/student/C-Step-Counter/src/detectionStage.o
+home/student/C-Fitness-Tracker/src/detectionStage.o: home/student/C-Fitness-Tracker/src/detectionStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/detectionStage.o
 
 # target to build an object file
-home/student/C-Step-Counter/src/detectionStage.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.o
-.PHONY : home/student/C-Step-Counter/src/detectionStage.c.o
+home/student/C-Fitness-Tracker/src/detectionStage.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/detectionStage.c.o
 
-home/student/C-Step-Counter/src/detectionStage.i: home/student/C-Step-Counter/src/detectionStage.c.i
-.PHONY : home/student/C-Step-Counter/src/detectionStage.i
+home/student/C-Fitness-Tracker/src/detectionStage.i: home/student/C-Fitness-Tracker/src/detectionStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/detectionStage.i
 
 # target to preprocess a source file
-home/student/C-Step-Counter/src/detectionStage.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.i
-.PHONY : home/student/C-Step-Counter/src/detectionStage.c.i
+home/student/C-Fitness-Tracker/src/detectionStage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/detectionStage.c.i
 
-home/student/C-Step-Counter/src/detectionStage.s: home/student/C-Step-Counter/src/detectionStage.c.s
-.PHONY : home/student/C-Step-Counter/src/detectionStage.s
+home/student/C-Fitness-Tracker/src/detectionStage.s: home/student/C-Fitness-Tracker/src/detectionStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/detectionStage.s
 
 # target to generate assembly for a file
-home/student/C-Step-Counter/src/detectionStage.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/detectionStage.c.s
-.PHONY : home/student/C-Step-Counter/src/detectionStage.c.s
+home/student/C-Fitness-Tracker/src/detectionStage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/detectionStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/detectionStage.c.s
 
-home/student/C-Step-Counter/src/filterStage.o: home/student/C-Step-Counter/src/filterStage.c.o
-.PHONY : home/student/C-Step-Counter/src/filterStage.o
+home/student/C-Fitness-Tracker/src/filterStage.o: home/student/C-Fitness-Tracker/src/filterStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/filterStage.o
 
 # target to build an object file
-home/student/C-Step-Counter/src/filterStage.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.o
-.PHONY : home/student/C-Step-Counter/src/filterStage.c.o
+home/student/C-Fitness-Tracker/src/filterStage.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/filterStage.c.o
 
-home/student/C-Step-Counter/src/filterStage.i: home/student/C-Step-Counter/src/filterStage.c.i
-.PHONY : home/student/C-Step-Counter/src/filterStage.i
+home/student/C-Fitness-Tracker/src/filterStage.i: home/student/C-Fitness-Tracker/src/filterStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/filterStage.i
 
 # target to preprocess a source file
-home/student/C-Step-Counter/src/filterStage.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.i
-.PHONY : home/student/C-Step-Counter/src/filterStage.c.i
+home/student/C-Fitness-Tracker/src/filterStage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/filterStage.c.i
 
-home/student/C-Step-Counter/src/filterStage.s: home/student/C-Step-Counter/src/filterStage.c.s
-.PHONY : home/student/C-Step-Counter/src/filterStage.s
+home/student/C-Fitness-Tracker/src/filterStage.s: home/student/C-Fitness-Tracker/src/filterStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/filterStage.s
 
 # target to generate assembly for a file
-home/student/C-Step-Counter/src/filterStage.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/filterStage.c.s
-.PHONY : home/student/C-Step-Counter/src/filterStage.c.s
+home/student/C-Fitness-Tracker/src/filterStage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/filterStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/filterStage.c.s
 
-home/student/C-Step-Counter/src/motionDetectStage.o: home/student/C-Step-Counter/src/motionDetectStage.c.o
-.PHONY : home/student/C-Step-Counter/src/motionDetectStage.o
+home/student/C-Fitness-Tracker/src/motionDetectStage.o: home/student/C-Fitness-Tracker/src/motionDetectStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/motionDetectStage.o
 
 # target to build an object file
-home/student/C-Step-Counter/src/motionDetectStage.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.o
-.PHONY : home/student/C-Step-Counter/src/motionDetectStage.c.o
+home/student/C-Fitness-Tracker/src/motionDetectStage.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/motionDetectStage.c.o
 
-home/student/C-Step-Counter/src/motionDetectStage.i: home/student/C-Step-Counter/src/motionDetectStage.c.i
-.PHONY : home/student/C-Step-Counter/src/motionDetectStage.i
+home/student/C-Fitness-Tracker/src/motionDetectStage.i: home/student/C-Fitness-Tracker/src/motionDetectStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/motionDetectStage.i
 
 # target to preprocess a source file
-home/student/C-Step-Counter/src/motionDetectStage.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.i
-.PHONY : home/student/C-Step-Counter/src/motionDetectStage.c.i
+home/student/C-Fitness-Tracker/src/motionDetectStage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/motionDetectStage.c.i
 
-home/student/C-Step-Counter/src/motionDetectStage.s: home/student/C-Step-Counter/src/motionDetectStage.c.s
-.PHONY : home/student/C-Step-Counter/src/motionDetectStage.s
+home/student/C-Fitness-Tracker/src/motionDetectStage.s: home/student/C-Fitness-Tracker/src/motionDetectStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/motionDetectStage.s
 
 # target to generate assembly for a file
-home/student/C-Step-Counter/src/motionDetectStage.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/motionDetectStage.c.s
-.PHONY : home/student/C-Step-Counter/src/motionDetectStage.c.s
+home/student/C-Fitness-Tracker/src/motionDetectStage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/motionDetectStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/motionDetectStage.c.s
 
-home/student/C-Step-Counter/src/postProcessingStage.o: home/student/C-Step-Counter/src/postProcessingStage.c.o
-.PHONY : home/student/C-Step-Counter/src/postProcessingStage.o
+home/student/C-Fitness-Tracker/src/postProcessingStage.o: home/student/C-Fitness-Tracker/src/postProcessingStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/postProcessingStage.o
 
 # target to build an object file
-home/student/C-Step-Counter/src/postProcessingStage.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.o
-.PHONY : home/student/C-Step-Counter/src/postProcessingStage.c.o
+home/student/C-Fitness-Tracker/src/postProcessingStage.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/postProcessingStage.c.o
 
-home/student/C-Step-Counter/src/postProcessingStage.i: home/student/C-Step-Counter/src/postProcessingStage.c.i
-.PHONY : home/student/C-Step-Counter/src/postProcessingStage.i
+home/student/C-Fitness-Tracker/src/postProcessingStage.i: home/student/C-Fitness-Tracker/src/postProcessingStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/postProcessingStage.i
 
 # target to preprocess a source file
-home/student/C-Step-Counter/src/postProcessingStage.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.i
-.PHONY : home/student/C-Step-Counter/src/postProcessingStage.c.i
+home/student/C-Fitness-Tracker/src/postProcessingStage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/postProcessingStage.c.i
 
-home/student/C-Step-Counter/src/postProcessingStage.s: home/student/C-Step-Counter/src/postProcessingStage.c.s
-.PHONY : home/student/C-Step-Counter/src/postProcessingStage.s
+home/student/C-Fitness-Tracker/src/postProcessingStage.s: home/student/C-Fitness-Tracker/src/postProcessingStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/postProcessingStage.s
 
 # target to generate assembly for a file
-home/student/C-Step-Counter/src/postProcessingStage.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/postProcessingStage.c.s
-.PHONY : home/student/C-Step-Counter/src/postProcessingStage.c.s
+home/student/C-Fitness-Tracker/src/postProcessingStage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/postProcessingStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/postProcessingStage.c.s
 
-home/student/C-Step-Counter/src/preProcessingStage.o: home/student/C-Step-Counter/src/preProcessingStage.c.o
-.PHONY : home/student/C-Step-Counter/src/preProcessingStage.o
+home/student/C-Fitness-Tracker/src/preProcessingStage.o: home/student/C-Fitness-Tracker/src/preProcessingStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/preProcessingStage.o
 
 # target to build an object file
-home/student/C-Step-Counter/src/preProcessingStage.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.o
-.PHONY : home/student/C-Step-Counter/src/preProcessingStage.c.o
+home/student/C-Fitness-Tracker/src/preProcessingStage.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/preProcessingStage.c.o
 
-home/student/C-Step-Counter/src/preProcessingStage.i: home/student/C-Step-Counter/src/preProcessingStage.c.i
-.PHONY : home/student/C-Step-Counter/src/preProcessingStage.i
+home/student/C-Fitness-Tracker/src/preProcessingStage.i: home/student/C-Fitness-Tracker/src/preProcessingStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/preProcessingStage.i
 
 # target to preprocess a source file
-home/student/C-Step-Counter/src/preProcessingStage.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.i
-.PHONY : home/student/C-Step-Counter/src/preProcessingStage.c.i
+home/student/C-Fitness-Tracker/src/preProcessingStage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/preProcessingStage.c.i
 
-home/student/C-Step-Counter/src/preProcessingStage.s: home/student/C-Step-Counter/src/preProcessingStage.c.s
-.PHONY : home/student/C-Step-Counter/src/preProcessingStage.s
+home/student/C-Fitness-Tracker/src/preProcessingStage.s: home/student/C-Fitness-Tracker/src/preProcessingStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/preProcessingStage.s
 
 # target to generate assembly for a file
-home/student/C-Step-Counter/src/preProcessingStage.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/preProcessingStage.c.s
-.PHONY : home/student/C-Step-Counter/src/preProcessingStage.c.s
+home/student/C-Fitness-Tracker/src/preProcessingStage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/preProcessingStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/preProcessingStage.c.s
 
-home/student/C-Step-Counter/src/ringbuffer.o: home/student/C-Step-Counter/src/ringbuffer.c.o
-.PHONY : home/student/C-Step-Counter/src/ringbuffer.o
+home/student/C-Fitness-Tracker/src/ringbuffer.o: home/student/C-Fitness-Tracker/src/ringbuffer.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/ringbuffer.o
 
 # target to build an object file
-home/student/C-Step-Counter/src/ringbuffer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.o
-.PHONY : home/student/C-Step-Counter/src/ringbuffer.c.o
+home/student/C-Fitness-Tracker/src/ringbuffer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/ringbuffer.c.o
 
-home/student/C-Step-Counter/src/ringbuffer.i: home/student/C-Step-Counter/src/ringbuffer.c.i
-.PHONY : home/student/C-Step-Counter/src/ringbuffer.i
+home/student/C-Fitness-Tracker/src/ringbuffer.i: home/student/C-Fitness-Tracker/src/ringbuffer.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/ringbuffer.i
 
 # target to preprocess a source file
-home/student/C-Step-Counter/src/ringbuffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.i
-.PHONY : home/student/C-Step-Counter/src/ringbuffer.c.i
+home/student/C-Fitness-Tracker/src/ringbuffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/ringbuffer.c.i
 
-home/student/C-Step-Counter/src/ringbuffer.s: home/student/C-Step-Counter/src/ringbuffer.c.s
-.PHONY : home/student/C-Step-Counter/src/ringbuffer.s
+home/student/C-Fitness-Tracker/src/ringbuffer.s: home/student/C-Fitness-Tracker/src/ringbuffer.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/ringbuffer.s
 
 # target to generate assembly for a file
-home/student/C-Step-Counter/src/ringbuffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/ringbuffer.c.s
-.PHONY : home/student/C-Step-Counter/src/ringbuffer.c.s
+home/student/C-Fitness-Tracker/src/ringbuffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/ringbuffer.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/ringbuffer.c.s
 
-home/student/C-Step-Counter/src/scoringStage.o: home/student/C-Step-Counter/src/scoringStage.c.o
-.PHONY : home/student/C-Step-Counter/src/scoringStage.o
+home/student/C-Fitness-Tracker/src/scoringStage.o: home/student/C-Fitness-Tracker/src/scoringStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/scoringStage.o
 
 # target to build an object file
-home/student/C-Step-Counter/src/scoringStage.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.o
-.PHONY : home/student/C-Step-Counter/src/scoringStage.c.o
+home/student/C-Fitness-Tracker/src/scoringStage.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.o
+.PHONY : home/student/C-Fitness-Tracker/src/scoringStage.c.o
 
-home/student/C-Step-Counter/src/scoringStage.i: home/student/C-Step-Counter/src/scoringStage.c.i
-.PHONY : home/student/C-Step-Counter/src/scoringStage.i
+home/student/C-Fitness-Tracker/src/scoringStage.i: home/student/C-Fitness-Tracker/src/scoringStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/scoringStage.i
 
 # target to preprocess a source file
-home/student/C-Step-Counter/src/scoringStage.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.i
-.PHONY : home/student/C-Step-Counter/src/scoringStage.c.i
+home/student/C-Fitness-Tracker/src/scoringStage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.i
+.PHONY : home/student/C-Fitness-Tracker/src/scoringStage.c.i
 
-home/student/C-Step-Counter/src/scoringStage.s: home/student/C-Step-Counter/src/scoringStage.c.s
-.PHONY : home/student/C-Step-Counter/src/scoringStage.s
+home/student/C-Fitness-Tracker/src/scoringStage.s: home/student/C-Fitness-Tracker/src/scoringStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/scoringStage.s
 
 # target to generate assembly for a file
-home/student/C-Step-Counter/src/scoringStage.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Step-Counter/src/scoringStage.c.s
-.PHONY : home/student/C-Step-Counter/src/scoringStage.c.s
+home/student/C-Fitness-Tracker/src/scoringStage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testAlgorithm.dir/build.make CMakeFiles/testAlgorithm.dir/home/student/C-Fitness-Tracker/src/scoringStage.c.s
+.PHONY : home/student/C-Fitness-Tracker/src/scoringStage.c.s
 
 src/main.o: src/main.c.o
 .PHONY : src/main.o
@@ -376,30 +376,30 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... testAlgorithm"
-	@echo "... home/student/C-Step-Counter/src/StepCountingAlgo.o"
-	@echo "... home/student/C-Step-Counter/src/StepCountingAlgo.i"
-	@echo "... home/student/C-Step-Counter/src/StepCountingAlgo.s"
-	@echo "... home/student/C-Step-Counter/src/detectionStage.o"
-	@echo "... home/student/C-Step-Counter/src/detectionStage.i"
-	@echo "... home/student/C-Step-Counter/src/detectionStage.s"
-	@echo "... home/student/C-Step-Counter/src/filterStage.o"
-	@echo "... home/student/C-Step-Counter/src/filterStage.i"
-	@echo "... home/student/C-Step-Counter/src/filterStage.s"
-	@echo "... home/student/C-Step-Counter/src/motionDetectStage.o"
-	@echo "... home/student/C-Step-Counter/src/motionDetectStage.i"
-	@echo "... home/student/C-Step-Counter/src/motionDetectStage.s"
-	@echo "... home/student/C-Step-Counter/src/postProcessingStage.o"
-	@echo "... home/student/C-Step-Counter/src/postProcessingStage.i"
-	@echo "... home/student/C-Step-Counter/src/postProcessingStage.s"
-	@echo "... home/student/C-Step-Counter/src/preProcessingStage.o"
-	@echo "... home/student/C-Step-Counter/src/preProcessingStage.i"
-	@echo "... home/student/C-Step-Counter/src/preProcessingStage.s"
-	@echo "... home/student/C-Step-Counter/src/ringbuffer.o"
-	@echo "... home/student/C-Step-Counter/src/ringbuffer.i"
-	@echo "... home/student/C-Step-Counter/src/ringbuffer.s"
-	@echo "... home/student/C-Step-Counter/src/scoringStage.o"
-	@echo "... home/student/C-Step-Counter/src/scoringStage.i"
-	@echo "... home/student/C-Step-Counter/src/scoringStage.s"
+	@echo "... home/student/C-Fitness-Tracker/src/StepCountingAlgo.o"
+	@echo "... home/student/C-Fitness-Tracker/src/StepCountingAlgo.i"
+	@echo "... home/student/C-Fitness-Tracker/src/StepCountingAlgo.s"
+	@echo "... home/student/C-Fitness-Tracker/src/detectionStage.o"
+	@echo "... home/student/C-Fitness-Tracker/src/detectionStage.i"
+	@echo "... home/student/C-Fitness-Tracker/src/detectionStage.s"
+	@echo "... home/student/C-Fitness-Tracker/src/filterStage.o"
+	@echo "... home/student/C-Fitness-Tracker/src/filterStage.i"
+	@echo "... home/student/C-Fitness-Tracker/src/filterStage.s"
+	@echo "... home/student/C-Fitness-Tracker/src/motionDetectStage.o"
+	@echo "... home/student/C-Fitness-Tracker/src/motionDetectStage.i"
+	@echo "... home/student/C-Fitness-Tracker/src/motionDetectStage.s"
+	@echo "... home/student/C-Fitness-Tracker/src/postProcessingStage.o"
+	@echo "... home/student/C-Fitness-Tracker/src/postProcessingStage.i"
+	@echo "... home/student/C-Fitness-Tracker/src/postProcessingStage.s"
+	@echo "... home/student/C-Fitness-Tracker/src/preProcessingStage.o"
+	@echo "... home/student/C-Fitness-Tracker/src/preProcessingStage.i"
+	@echo "... home/student/C-Fitness-Tracker/src/preProcessingStage.s"
+	@echo "... home/student/C-Fitness-Tracker/src/ringbuffer.o"
+	@echo "... home/student/C-Fitness-Tracker/src/ringbuffer.i"
+	@echo "... home/student/C-Fitness-Tracker/src/ringbuffer.s"
+	@echo "... home/student/C-Fitness-Tracker/src/scoringStage.o"
+	@echo "... home/student/C-Fitness-Tracker/src/scoringStage.i"
+	@echo "... home/student/C-Fitness-Tracker/src/scoringStage.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
