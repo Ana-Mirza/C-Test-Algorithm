@@ -54,7 +54,9 @@ dkms.conf
 #custom
 build/
 .vscode
+Makefile
 data/
-.txt
-.csv
-.cmake
+*.txt
+*.csv
+*.cmake
+testAlgorithm
