@@ -36,22 +36,32 @@ SOFTWARE.
 
 #define nitems(_a)    (sizeof(_a) / sizeof(0[(_a)]))
 
+/* Helth data */
+#define GENDER "F"
+#define AGE 22
+#define WEIGHT 50
+#define HEIGHT 166
+
 struct datapoint
 {
 	char* path;    /* the data of register */
 	int steps;      /* the unit is us */
+    char* style;     /* the style of walking */
 };
 
 static const struct datapoint dataset[] = {
-    // {"../Dataset/optimize/csv_data/leganat_normal.csv", 150},
-    // {"../Dataset/optimize/csv_data/leganat_incet.csv", 150},
-    // {"../Dataset/optimize/csv_data/leganat_rapid.csv", 150},
-    // {"../Dataset/optimize/csv_data/leganat_alergat.csv", 150},
-    // {"../Dataset/optimize/csv_data/buzunar.csv", 170},
-    // {"../Dataset/optimize/csv_data/stationar.csv", 150},
-    // {"../Dataset/optimize/csv_data/scari.csv", 150},
-    // {"../Dataset/optimize/csv_data/50_pasi.csv", 50},
-    {"../Dataset/optimize/csv_data/mers_drept2.csv", 10},
+    // {"../Dataset/optimize/csv_data/leganat_normal.csv", 150, "normal"},
+    // {"../Dataset/optimize/csv_data/leganat_incet.csv", 150, "incet"},
+    // {"../Dataset/optimize/csv_data/leganat_rapid.csv", 150, "rapid"},
+    // {"../Dataset/optimize/csv_data/leganat_alergat.csv", 150, "alergat"},
+    // {"../Dataset/optimize/csv_data/buzunar.csv", 170, "normal"},
+    // {"../Dataset/optimize/csv_data/stationar.csv", 150, "normal"},
+    // {"../Dataset/optimize/csv_data/scari.csv", 150, "normal"},
+    {"../Dataset/optimize/csv_data/50_pasi.csv", 50, "normal"},
+    {"../Dataset/optimize/csv_data/10pasi.csv", 10, "normal"},
+    {"../Dataset/optimize/csv_data/11metri.csv", 11, "normal"},
+    {"../Dataset/optimize/csv_data/55metri.csv", 55, "normal"},
+    {"../Dataset/optimize/csv_data/110metri.csv", 110, "normal"},
 };
 
 static void runAlgo(char* path)
@@ -80,19 +90,43 @@ static void runAlgo(char* path)
 
 int main(int argc, char *argv[])
 {
-    initAlgo();
+    initAlgo(GENDER, AGE, HEIGHT, WEIGHT);
 
     int error = 0;
+    int totalSteps = 0;
+    int totalCorectSteps = 0;
     for (int idx = 0; idx < nitems(dataset); idx++)
     {
         int correct_answer = dataset[idx].steps;
         runAlgo(dataset[idx].path);
+
         int steps = getSteps();
+        int met = getMET();
+        float dist = getDistance();
+
+        totalSteps += steps;
+        totalCorectSteps += correct_answer;
+
+        /* Compute calorie burn */
+        float kcal = met * 0.0175 * WEIGHT / 1000; /* convert mili */
+        float BMR = strcmp(GENDER, "F") == 0 ? 
+            (9.56 * WEIGHT) + (1.85 * HEIGHT) - (4.68 * AGE) + 655 :
+            (13.75 * WEIGHT) + (5 * HEIGHT) - (6.76 * AGE) + 66;
+
+        float total_kcal = (BMR / 24) + kcal / 1000;
+
+        float calories = getCalories();
 
         /* Print data computed */
-        printf("Steps=%d Correct number=%d\n", steps, correct_answer);
+        // printf("Distance=%f Calories=%f Steps=%d CorrectSteps=%d mers-%s\n", 
+        //     dist, kcal, steps, correct_answer, dataset[idx].style);
+
+        /* Print calorie burn */
+        printf("kcal_algo=%f kcal=%f BMR(per min)=%f Total_Calories=%f\n", calories, kcal, BMR / 24 / 60, total_kcal);
 
         resetSteps();
         resetAlgo();
     }
+
+    printf("Total steps counted=%d total correct number=%d\n", totalSteps, totalCorectSteps);
 }
